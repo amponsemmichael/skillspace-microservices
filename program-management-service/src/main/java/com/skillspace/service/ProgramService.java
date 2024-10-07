@@ -50,7 +50,7 @@ public class ProgramService {
             program.setDateOfCommencement(programDetails.getDateOfCommencement());
             program.setDateOfCompletion(programDetails.getDateOfCompletion());
             program.setStatus(programDetails.getStatus());
-
+            program.setCoverImageForProgram(programDetails.getCoverImageForProgram());
             Program updatedProgram = programRepository.save(program);
 
             if (!program.isDraft()) {
