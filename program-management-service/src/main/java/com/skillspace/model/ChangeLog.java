@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 @Data
 @Entity
-class ChangeLog {
+public class ChangeLog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
